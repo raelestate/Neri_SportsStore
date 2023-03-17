@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./https://raelestate.github.io/Neri_SportsStore/
+          source: ./Index.cshtml
           destination: ./Neri_SportsStore/Views/Home/Index.cshtml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
