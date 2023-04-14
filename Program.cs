@@ -23,8 +23,8 @@ var app = builder.Build();
 
 //
 app.UseStaticFiles();
-app.MapControllerRoute("pagination",
-	"Products/Page{productPage}",
+app.MapControllerRoute("catpage",
+	"{category}/Page{productPage:int}",
 	new { Controller = "Home", action = "Index" });
 
 // Configure the HTTP request pipeline.

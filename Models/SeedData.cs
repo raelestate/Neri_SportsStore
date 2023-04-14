@@ -24,6 +24,27 @@ namespace Neri_SportsStore.Models
 					Description = "A boat for one person",
 					Category = "Watersports",
 					Price = 275
+				},
+				new Product
+				{
+					Name = "Kayak",
+					Description = "A boat for one person",
+					Category = "Ball Sports",
+					Price = 275
+				},
+				new Product
+				{
+					Name = "Kayak",
+					Description = "A boat for one person",
+					Category = "Badminton",
+					Price = 275
+				},
+				new Product
+				{
+					Name = "Kayak",
+					Description = "A boat for one person",
+					Category = "Soccer",
+					Price = 275
 				}
 				);
 				context.SaveChanges();
